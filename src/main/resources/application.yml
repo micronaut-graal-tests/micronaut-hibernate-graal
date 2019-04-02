@@ -12,8 +12,9 @@ datasources:
     password: ''    
 jpa:
   default:
+    packages-to-scan:
+      - 'example.micronaut'
     properties:
       hibernate:
         hbm2ddl:
           auto: update
-
