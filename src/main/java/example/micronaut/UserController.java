@@ -1,6 +1,7 @@
 package example.micronaut;
 
 import io.micronaut.http.annotation.Controller;
+import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.Post;
 
 @Controller("/user")
@@ -17,9 +18,9 @@ public class UserController {
         return userService.save(username, firstName, lastName);
     }
 
-//    @Get("/{id}")
-//    public User findById(Long id) {
-//        return userService.findById(id)
-//                .orElse(null);
-//    }
+    @Get("/{id}")
+    public User findById(Long id) {
+        return userService.findById(id)
+                .orElse(null);
+    }
 }

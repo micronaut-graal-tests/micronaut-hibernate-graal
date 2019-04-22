@@ -6,6 +6,7 @@ import io.micronaut.spring.tx.annotation.Transactional;
 import javax.inject.Singleton;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.util.Optional;
 
 @Singleton
 public class UserService {
@@ -24,9 +25,9 @@ public class UserService {
         return user;
     }
 
-//    @Transactional(readOnly = true)
-//    public Optional<User> findById(Long id) {
-//        return Optional.ofNullable(entityManager.find(User.class, id));
-//    }
+    @Transactional(readOnly = true)
+    public Optional<User> findById(Long id) {
+        return Optional.ofNullable(entityManager.find(User.class, id));
+    }
 
 }
