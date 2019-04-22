@@ -6,6 +6,7 @@ import io.micronaut.spring.tx.annotation.Transactional;
 import javax.inject.Singleton;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.validation.Valid;
 import java.util.Optional;
 
 @Singleton
@@ -19,8 +20,7 @@ public class UserService {
     }
 
     @Transactional
-    public User save(String username, String firstName, String lastName) {
-        User user = new User(username, firstName, lastName);
+    public User save(@Valid User user) {
         entityManager.persist(user);
         return user;
     }

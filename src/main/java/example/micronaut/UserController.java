@@ -15,7 +15,8 @@ public class UserController {
 
     @Post("/save")
     public User save(String username, String firstName, String lastName) {
-        return userService.save(username, firstName, lastName);
+        User user = new User(username, firstName, lastName);
+        return userService.save(user);
     }
 
     @Get("/{id}")
