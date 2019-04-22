@@ -32,7 +32,9 @@ dependencies {
     annotationProcessor "io.micronaut:micronaut-graal"
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
-    compile "io.micronaut.configuration:micronaut-hibernate-jpa"
+    compile "io.micronaut.configuration:micronaut-hibernate-jpa", {
+        exclude group:'io.micronaut.configuration', module:'micronaut-hibernate-validator'
+    }
     compile "io.micronaut.configuration:micronaut-jdbc-tomcat"
     compile "io.micronaut:micronaut-http-client"
     compile "io.micronaut:micronaut-http-server-netty"
