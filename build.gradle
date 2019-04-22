@@ -14,11 +14,12 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven { url "https://jcenter.bintray.com" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 }
 
 dependencyManagement {
     imports {
-        mavenBom 'io.micronaut:micronaut-bom:1.1.0.RC2'
+        mavenBom "io.micronaut:micronaut-bom:$micronautVersion"
     }
 }
 
