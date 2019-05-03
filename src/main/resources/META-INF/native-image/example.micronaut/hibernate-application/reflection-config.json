@@ -1,0 +1,6 @@
+[ {
+  "name" : "example.micronaut.User",
+  "allPublicMethods" : true,
+  "allDeclaredFields" : true,
+  "allDeclaredConstructors" : true
+} ]
