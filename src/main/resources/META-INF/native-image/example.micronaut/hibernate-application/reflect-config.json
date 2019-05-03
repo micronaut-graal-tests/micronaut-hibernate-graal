@@ -1,0 +1,3142 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[I"
+},
+{
+  "name":"[J"
+},
+{
+  "name":"[Ljava.lang.Object;"
+},
+{
+  "name":"ch.qos.logback.classic.Logger"
+},
+{
+  "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.DateConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LineSeparatorConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LoggerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.MessageConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.ThreadConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.color.HighlightingCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.ConsoleAppender",
+  "allPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.pattern.color.CyanCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.pattern.color.GrayCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.pattern.color.MagentaCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.databind.Module"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mysql.cj.conf.url.SingleConnectionUrl",
+  "methods":[{"name":"<init>","parameterTypes":["com.mysql.cj.conf.ConnectionUrlParser","java.util.Properties"] }]
+},
+{
+  "name":"com.mysql.cj.jdbc.Clob",
+  "methods":[{"name":"free","parameterTypes":[] }]
+},
+{
+  "name":"com.mysql.cj.jdbc.ConnectionImpl",
+  "methods":[{"name":"getSchema","parameterTypes":[] }]
+},
+{
+  "name":"com.mysql.cj.jdbc.Driver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mysql.cj.log.StandardLogger",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.mysql.cj.protocol.StandardSocketFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.proxy.$Proxy37",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"com.sun.proxy.$Proxy64",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"example.micronaut.$$UserServiceDefinition$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"example.micronaut.$User$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"example.micronaut.$UserControllerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"example.micronaut.$UserServiceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"example.micronaut.User",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"getId","parameterTypes":[] }, 
+    {"name":"setId","parameterTypes":["java.lang.Long"] }
+  ]
+},
+{
+  "name":"example.micronaut.UserController",
+  "methods":[
+    {"name":"findById","parameterTypes":["java.lang.Long"] }, 
+    {"name":"save","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }
+  ]
+},
+{
+  "name":"example.micronaut.UserService",
+  "methods":[
+    {"name":"findById","parameterTypes":["java.lang.Long"] }, 
+    {"name":"save","parameterTypes":["example.micronaut.User"] }
+  ]
+},
+{
+  "name":"io.micronaut.buffer.netty.$NettyByteBufferFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.$AsyncCacheErrorHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.$DefaultCacheConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.$DefaultCacheErrorHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.$DefaultCacheManagerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.$DefaultSyncCacheDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.interceptor.$CacheInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.interceptor.$DefaultCacheKeyGenerator$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.cache.jcache.$JCacheManagerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$$EntityManagerFactoryBean$CurrentSessionDefinition$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$BeanConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$EntityManagerFactoryBean$CurrentSessionDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$EntityManagerFactoryBean$HibernateMetadataSourcesDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$EntityManagerFactoryBean$HibernateSessionFactoryBuilderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$EntityManagerFactoryBean$HibernateSessionFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$EntityManagerFactoryBean$HibernateStandardServiceRegistryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$EntityManagerFactoryBeanDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$HibernateTransactionManagerFactory$HibernateTransactionManagerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$HibernateTransactionManagerFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.$JpaConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.HibernateTransactionManagerFactory"
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.condition.EntitiesInPackageCondition",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.jcache.$BeanConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.jcache.$HibernateJCacheManagerBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.metrics.$HibernateMetricsBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.jpa.scope.CurrentSession"
+},
+{
+  "name":"io.micronaut.configuration.hibernate.validator.$BeanConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.validator.$DefaultConstraintValidatorFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.validator.$DefaultParameterNameProviderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.validator.$ValidatorFactoryProvider$ValidatorFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.hibernate.validator.$ValidatorFactoryProviderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.jdbc.tomcat.$BeanConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.jdbc.tomcat.$DatasourceConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.jdbc.tomcat.$DatasourceFactory$DataSourceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.jdbc.tomcat.$DatasourceFactory$TomcatPoolDataSourceMetadataProviderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.configuration.jdbc.tomcat.$DatasourceFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.context.env.PropertiesPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.context.env.yaml.YamlPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.$DefaultCompositeDiscoveryClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.$DefaultServiceInstanceIdGeneratorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.aws.$AmazonComputeInstanceMetadataResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.aws.$AmazonMetadataConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.digitalocean.$DigitalOceanMetadataConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.digitalocean.$DigitalOceanMetadataResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.gcp.$GoogleComputeInstanceMetadataResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.gcp.$GoogleComputeMetadataConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.config.$DefaultCompositeConfigurationClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$DefaultCurrentHealthStatusDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HealthStatus$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HeartbeatConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HeartbeatDiscoveryClientCondition$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HeartbeatTaskDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.$MediaTypeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.bind.$DefaultRequestBinderRegistryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$DefaultHttpClientConfiguration$DefaultConnectionPoolConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$DefaultHttpClientConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$DefaultHttpClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$DefaultLoadBalancerResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$ServiceHttpClientConfiguration$ServiceConnectionPoolConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$ServiceHttpClientConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$ServiceHttpClientFactory$ServiceHttpClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$ServiceHttpClientFactory$ServiceInstanceListDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.$ServiceHttpClientFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.converters.$ClientResponseConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.converters.$LoadBalancerConvertersDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.converters.$SocketAddressConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.interceptor.$HttpClientIntroductionAdviceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.interceptor.configuration.$DefaultClientVersioningConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.interceptor.configuration.$NamedClientVersioningConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.loadbalance.$DiscoveryClientLoadBalancerFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.loadbalance.$ServiceInstanceListLoadBalancerFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.reactor.$ReactorReactiveClientResultTransformerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.rxjava2.$RxReactiveClientResultTransformerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.scope.$ClientScopeDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.client.ssl.$NettyClientSslBuilderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.codec.$CodecConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.$DefaultLink$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.$JsonError$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.$VndError$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.AbstractResource",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.micronaut.http.hateoas.DefaultLink",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"io.micronaut.http.hateoas.JsonError",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"io.micronaut.http.hateoas.Link",
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.micronaut.http.hateoas.Link$Builder",
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.micronaut.http.hateoas.Resource",
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.micronaut.http.hateos.$DefaultLink$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateos.$JsonError$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateos.$VndError$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.netty.channel.$NettyThreadFactory$NettyThreadFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.netty.channel.$NettyThreadFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.netty.websocket.$NettyServerWebSocketBroadcasterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.netty.websocket.$WebSocketMessageEncoderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactory$FileSystemResourceLoaderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactory$GetClassPathResourceLoaderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactory$ReadableTypeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactory$ResourceResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.$HttpServerConfiguration$CorsConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.$HttpServerConfiguration$MultipartConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.$HttpServerConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.binding.$RequestArgumentSatisfierDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.codec.$TextStreamCodecDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.context.$ServerRequestContextFilterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.context.$ServerRequestContextInstrumentation$ExecutorServiceInstrumentationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.context.$ServerRequestContextInstrumentationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.cors.$BeanConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.cors.$CorsFilterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.cors.$CorsOriginConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.exceptions.$ContentLengthExceededHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.exceptions.$ConversionErrorHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.exceptions.$HttpStatusHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.exceptions.$JsonExceptionHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.exceptions.$UnsatisfiedArgumentHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.$EpollEventLoopGroupFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.$FormDataHttpContentSubscriberFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.$KQueueEventLoopGroupFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.$NettyEmbeddedServerInstanceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.$NettyHttpServerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.$NettyRequestArgumentSatisfierDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.$NioEventLoopGroupFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.NettyHttpResponseFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.binders.$CompletableFutureBodyBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.binders.$MaybeBodyBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.binders.$ObservableBodyBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.binders.$PublisherBodyBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.binders.$SingleBodyBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.configuration.$NettyChannelOptionConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.configuration.$NettyHttpServerConfiguration$ParentDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.configuration.$NettyHttpServerConfiguration$WorkerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.configuration.$NettyHttpServerConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$AttributeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$ByteBufConverters$ByteArrayToByteBuffTypeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$ByteBufConverters$ByteBufCharSequenceTypeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$ByteBufConverters$ByteBufToArrayTypeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$ByteBufConverters$CompositeByteBufCharSequenceTypeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$ByteBufConverters$CompositeByteBufTypeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$ByteBufConvertersDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$ByteBufToObjectConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$DuplicateRouteHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$FileUploadToCompletedFileUploadConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$FileUploadToObjectConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$HttpDataToByteArrayConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$HttpDataToStringConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$NettyPartDataToArrayConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$NettyPartDataToObjectConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.converters.$UnsatisfiedRouteHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.jackson.$JsonHttpContentSubscriberFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.jackson.$JsonViewMediaTypeCodecFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.jackson.$JsonViewServerFilterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.ssl.$CertificateProvidedSslBuilderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.ssl.$SelfSignedSslBuilderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.types.$DefaultCustomizableResponseTypeHandlerRegistryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.types.files.$FileTypeHandlerConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.netty.types.files.$FileTypeHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.server.websocket.$ServerWebSocketProcessorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfiguration$DefaultKeyConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfiguration$DefaultKeyStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfiguration$DefaultTrustStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfiguration$DefaultKeyConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfiguration$DefaultKeyStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfiguration$DefaultTrustStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfiguration$DefaultKeyConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfiguration$DefaultKeyStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfiguration$DefaultTrustStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.util.$OutgoingHttpRequestProcessorImplDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$BeanConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$JacksonConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$ObjectMapperFactory$ObjectMapperDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$ObjectMapperFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.bind.$CharSequencePropertyNamingStrategyConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.bind.$JacksonBeanPropertyBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.bind.$MapToObjectConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.codec.$JsonMediaTypeCodecDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.codec.$JsonStreamMediaTypeCodecDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.convert.$ArrayNodeToArrayConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.convert.$ArrayNodeToIterableConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.convert.$JsonNodeToObjectConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.convert.$ObjectNodeToConvertibleValuesConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.convert.$ObjectToJsonNodeConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.env.EnvJsonPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.env.JsonPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.modules.$BeanIntrospectionModuleDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ConvertibleMultiValuesSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ConvertibleValuesSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$JacksonObjectSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$OptionalValuesSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ResourceModuleDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ResourceSerializerModifierDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jdbc.spring.$DataSourceTransactionManagerFactory$DataSourceTransactionManagerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jdbc.spring.$DataSourceTransactionManagerFactory$TransactionAwareDataSourceListenerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jdbc.spring.$DataSourceTransactionManagerFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jdbc.spring.$SpringDataSourceResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jdbc.spring.HibernatePresenceCondition",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.reactor.$ReactorInstrumentationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.reactor.converters.$ObjectToFluxConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.reactor.converters.$ObjectToMonoConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.reactor.converters.$PublisherToFluxConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.reactor.converters.$PublisherToMonoConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.rxjava1.converters.$RxJava1ConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.rxjava2.$RxJava2InstrumentationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.rxjava2.converters.$RxJavaConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.retry.intercept.$DefaultRetryInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.retry.intercept.$RecoveryInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.$ApplicationConfiguration$InstanceConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.$ApplicationConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.scope.$ThreadLocalCustomScopeDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.scope.ScopedProxy"
+},
+{
+  "name":"io.micronaut.runtime.context.scope.refresh.$RefreshInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.scope.refresh.$RefreshScopeDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.converters.time.$TimeConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.codec.$MediaTypeCodecRegistryFactory$MediaTypeCodecRegistryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.codec.$MediaTypeCodecRegistryFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.codec.$TextPlainCodecDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.converters.$HttpStatusConverterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.server.watch.event.$FileWatchRestartListenerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.$DefaultTaskExceptionHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.$ScheduledExecutorTaskSchedulerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.async.$AsyncInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$DefaultExecutorSelectorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$DefaultThreadFactory$ThreadFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$DefaultThreadFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ExecutorFactory$ExecutorServiceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ExecutorFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$IOExecutorServiceConfig$ConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$IOExecutorServiceConfigDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ScheduledExecutorServiceConfig$ConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ScheduledExecutorServiceConfigDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$UserExecutorConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$DefaultWatchThreadDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$FileWatchConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$WatchServiceFactory$WatchServiceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$WatchServiceFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.processor.$ScheduledMethodProcessorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.spring.tx.annotation.$TransactionInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.$ValidatingInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.exceptions.$ConstraintExceptionHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.exceptions.$ValidationExceptionHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.$AnnotatedFilterRouteBuilderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.$AnnotatedMethodRouteBuilderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.$DefaultRouterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.naming.$HyphenatedUriNamingStrategyDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.resource.$StaticResourceConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.resource.$StaticResourceResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.$ConfigurationDefaultVersionProviderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.$RouteVersionFilterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.$RoutesVersioningConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.$VersionAwareRouterListenerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.resolution.$HeaderVersionResolverConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.resolution.$HeaderVersionResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.resolution.$ParameterVersionResolverConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.web.router.version.resolution.$ParameterVersionResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.websocket.interceptor.$ClientWebSocketInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"io.netty.channel.socket.nio.NioServerSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.util.ReferenceCountUtil",
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.reactivex.Completable"
+},
+{
+  "name":"io.reactivex.Maybe"
+},
+{
+  "name":"io.reactivex.Observable"
+},
+{
+  "name":"io.reactivex.Single"
+},
+{
+  "name":"java.io.File",
+  "methods":[{"name":"toPath","parameterTypes":[] }]
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.ArrayIndexOutOfBoundsException"
+},
+{
+  "name":"java.lang.Boolean"
+},
+{
+  "name":"java.lang.Byte"
+},
+{
+  "name":"java.lang.Class",
+  "methods":[
+    {"name":"getAnnotatedInterfaces","parameterTypes":[] }, 
+    {"name":"getAnnotatedSuperclass","parameterTypes":[] }, 
+    {"name":"getDeclaredMethod","parameterTypes":["java.lang.String","java.lang.Class[]"] }, 
+    {"name":"getMethod","parameterTypes":["java.lang.String","java.lang.Class[]"] }
+  ]
+},
+{
+  "name":"java.lang.Comparable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Double"
+},
+{
+  "name":"java.lang.Float"
+},
+{
+  "name":"java.lang.Integer"
+},
+{
+  "name":"java.lang.Integer$IntegerCache"
+},
+{
+  "name":"java.lang.Long",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.NullPointerException"
+},
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"equals","parameterTypes":["java.lang.Object"] }, 
+    {"name":"hashCode","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Short"
+},
+{
+  "name":"java.lang.String",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.lang.System",
+  "methods":[{"name":"nanoTime","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.invoke.CallSite"
+},
+{
+  "name":"java.lang.invoke.MethodHandle"
+},
+{
+  "name":"java.lang.invoke.MethodHandles"
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup"
+},
+{
+  "name":"java.lang.invoke.MethodType"
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getName","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedArrayType",
+  "methods":[{"name":"getAnnotatedGenericComponentType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedType",
+  "methods":[{"name":"getType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Executable",
+  "methods":[
+    {"name":"getAnnotatedExceptionTypes","parameterTypes":[] }, 
+    {"name":"getAnnotatedParameterTypes","parameterTypes":[] }, 
+    {"name":"getAnnotatedReceiverType","parameterTypes":[] }, 
+    {"name":"getParameterCount","parameterTypes":[] }, 
+    {"name":"getParameters","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.reflect.Field",
+  "methods":[{"name":"getAnnotatedType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Method",
+  "methods":[{"name":"getAnnotatedReturnType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Modifier"
+},
+{
+  "name":"java.lang.reflect.Parameter",
+  "methods":[
+    {"name":"getModifiers","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"isNamePresent","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.net.URI",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.nio.Bits",
+  "methods":[{"name":"unaligned","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "fields":[{"name":"cleaner"}],
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.file.CopyOption"
+},
+{
+  "name":"java.nio.file.Files",
+  "methods":[{"name":"move","parameterTypes":["java.nio.file.Path","java.nio.file.Path","java.nio.file.CopyOption[]"] }]
+},
+{
+  "name":"java.nio.file.Path"
+},
+{
+  "name":"java.nio.file.StandardCopyOption"
+},
+{
+  "name":"java.sql.Connection",
+  "methods":[{"name":"createClob","parameterTypes":[] }]
+},
+{
+  "name":"java.sql.DatabaseMetaData",
+  "methods":[{"name":"supportsRefCursors","parameterTypes":[] }]
+},
+{
+  "name":"java.util.logging.SimpleFormatter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javax.management.ObjectName"
+},
+{
+  "name":"javax.persistence.EntityManager",
+  "methods":[{"name":"find","parameterTypes":["java.lang.Class","java.lang.Object"] }]
+},
+{
+  "name":"javax.persistence.Persistence",
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getPersistenceUtil","parameterTypes":[] }
+  ]
+},
+{
+  "name":"javax.validation.Validation"
+},
+{
+  "name":"javax.validation.constraints.NotBlank",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javax.validation.constraints.Size",
+  "allDeclaredMethods":true
+},
+{
+  "name":"jdk.vm.ci.meta.DeoptimizationAction"
+},
+{
+  "name":"jdk.vm.ci.meta.DeoptimizationReason"
+},
+{
+  "name":"jdk.vm.ci.meta.JavaKind"
+},
+{
+  "name":"jdk.vm.ci.services.Services"
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.AllArguments",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Default",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.DefaultCall",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.DefaultMethod",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.FieldValue",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Origin",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.StubValue",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Super",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.This",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.graalvm.compiler.api.directives.GraalDirectives"
+},
+{
+  "name":"org.graalvm.compiler.bytecode.Bytecodes$Flags",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.core.amd64.AMD64AddressNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.core.common.calc.UnsignedMath"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.GraalHotSpotVMConfig"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.GraalHotSpotVMConfigBase"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.HotSpotBackend"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.HotSpotLockStack",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64ArrayEqualsStub"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64ArrayIndexOfStub"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64DeoptimizeOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotCRuntimeCallEpilogueOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotCRuntimeCallPrologueOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotDeoptimizeCallerOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotDirectStaticCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotEpilogueBlockEndOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotJumpToExceptionHandlerInCallerOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotMove$HotSpotLoadMetaspaceConstantOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotMove$HotSpotLoadObjectConstantOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotPatchReturnAddressOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotReturnOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotSafepointOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotStrategySwitchOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotSpotUnwindOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64HotspotDirectVirtualCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.amd64.AMD64IndirectCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.gc.shared.ObjectWriteBarrier",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.gc.shared.SerialWriteBarrier",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.meta.HotSpotForeignCallsProviderImpl"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.AcquiredCASLockNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.AllocaNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.BeginLockScopeNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.CurrentJavaThreadNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.CurrentLockNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.DeoptimizeCallerNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.EndLockScopeNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.FastAcquireBiasedLockNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.GraalHotSpotVMConfigNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.HotSpotCompressionNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.HotSpotDirectCallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.HotSpotIndirectCallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.JumpToExceptionHandlerInCallerNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.JumpToExceptionHandlerNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.LoadIndexedPointerNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.PatchReturnAddressNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.StubForeignCallNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.StubStartNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.nodes.WriteBarrier",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.BigIntegerSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.ClassGetHubNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.HashCodeSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.HotSpotArraySubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.HotSpotClassSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.HotSpotReplacementsUtil"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.HubGetClassNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.IdentityHashCodeNode"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.InstanceOfSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.KlassLayoutHelperNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.LoadExceptionObjectSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.MonitorSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.MonitorSnippets$Counters"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.NewObjectSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.NewObjectSnippets$Counters"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.ObjectCloneNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.ObjectCloneSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.ObjectSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.ReflectionGetCallerClassNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.ReflectionSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.ThreadSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.TypeCheckSnippetUtils"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.TypeCheckSnippetUtils$Counters"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.WriteBarrierSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.WriteBarrierSnippets$Counters"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.replacements.arraycopy.HotSpotArraycopySnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.stubs.CreateExceptionStub"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.stubs.ExceptionHandlerStub"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.stubs.ForeignCallSnippets"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.stubs.NullPointerExceptionStub"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.stubs.OutOfBoundsExceptionStub"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.stubs.StubUtil"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.stubs.UnwindExceptionToCallerStub"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.word.KlassPointer"
+},
+{
+  "name":"org.graalvm.compiler.hotspot.word.PointerCastNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.StandardOp$JumpOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.StandardOp$LabelOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.StandardOp$NoOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ArrayEqualsOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ArrayIndexOfOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Binary$CommutativeTwoOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Binary$ConstOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Binary$DataTwoOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Binary$MemoryTwoOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Binary$RMIOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Binary$TwoOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer$ConstOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer$MemoryConstOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer$MemoryMROp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer$MemoryRMOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer$MemoryVMConstOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer$Op",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer$VMConstOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64BlockEndOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ByteSwapOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Call$CallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Call$DirectCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Call$DirectNearForeignCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Call$ForeignCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Call$IndirectCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Call$MethodCallOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ControlFlow$BranchOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ControlFlow$CondMoveOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ControlFlow$CondSetOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ControlFlow$FloatBranchOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ControlFlow$FloatCondMoveOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ControlFlow$StrategySwitchOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64LIRInstruction",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$AMD64PushPopStackMove",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$AMD64StackMove",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$AbstractMoveOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$CompareAndSwapOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$CompressPointerOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$LeaDataOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$LeaOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$MembarOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$MoveFromConstOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$MoveFromRegOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$MoveToRegOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$NullCheckOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$PointerCompressionOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$StackLeaOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Move$UncompressPointerOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64MulDivOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64PrefetchOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64RestoreRegistersOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64SaveRegistersOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ShiftOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64SignExtendOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Unary$MOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Unary$MROp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Unary$MemoryOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64Unary$RMOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64VZeroUpper",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.AMD64ZeroMemoryOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.lir.amd64.vector.AMD64VectorBinary$AVXBinaryOp",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.AbstractBeginNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.AbstractDeoptimizeNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.AbstractEndNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.AbstractFixedGuardNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.AbstractLocalNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.AbstractMergeNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.AbstractStateSplit",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.BeginNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.BeginStateSplitNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.BinaryOpLogicNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.CallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.CompressionNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ComputeObjectAddressNode"
+},
+{
+  "name":"org.graalvm.compiler.nodes.ConstantNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ControlSinkNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ControlSplitNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.DeoptimizeNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.DeoptimizingFixedWithNextNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.DirectCallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.DynamicDeoptimizeNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.EndNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.EntryMarkerNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.EntryProxyNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.FixedGuardNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.FixedNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.FixedWithNextNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.FloatingAnchoredNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.FloatingGuardedNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.FrameState",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.FrameState$TwoSlotMarker",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.GetObjectAddressNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.GuardNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.GuardProxyNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.IfNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.IndirectCallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.InvokeNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.InvokeWithExceptionNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.KillingBeginNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.LogicConstantNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.LogicNegationNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.LogicNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.LoopBeginNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.LoopEndNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.LoopExitNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.LoweredCallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.MergeNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ParameterNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.PhiNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.PiArrayNode"
+},
+{
+  "name":"org.graalvm.compiler.nodes.PiArrayNode$Placeholder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.PiNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.PiNode$Placeholder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.PrefetchAllocateNode"
+},
+{
+  "name":"org.graalvm.compiler.nodes.ProxyNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ReturnNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.SafepointNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ShortCircuitOrNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.SnippetAnchorNode"
+},
+{
+  "name":"org.graalvm.compiler.nodes.StartNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.UnaryOpLogicNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.UnwindNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ValueNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ValuePhiNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.ValueProxyNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.VirtualState",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.AddNode",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.graalvm.compiler.nodes.ValueNode","org.graalvm.compiler.nodes.ValueNode"] }]
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.AndNode",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.graalvm.compiler.nodes.ValueNode","org.graalvm.compiler.nodes.ValueNode"] }]
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.BinaryArithmeticNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.BinaryNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.CompareNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.ConditionalNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.FixedBinaryNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.FloatConvertNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.FloatDivNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.FloatEqualsNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.FloatLessThanNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.FloatingNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerBelowNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerConvertNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerDivRemNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerEqualsNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerLessThanNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerLowerThanNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerMulHighNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IntegerTestNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.IsNullNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.LeftShiftNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.MulNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.NarrowNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.NegateNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.NormalizeCompareNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.NotNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.ObjectEqualsNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.OrNode",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.graalvm.compiler.nodes.ValueNode","org.graalvm.compiler.nodes.ValueNode"] }]
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.PointerEqualsNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.ReinterpretNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.RightShiftNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.ShiftNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.SignExtendNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.SignedDivNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.SignedRemNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.SubNode",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.graalvm.compiler.nodes.ValueNode","org.graalvm.compiler.nodes.ValueNode"] }]
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.UnaryArithmeticNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.UnaryNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.UnsignedRightShiftNode",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.graalvm.compiler.nodes.ValueNode","org.graalvm.compiler.nodes.ValueNode"] }]
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.XorNode",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.graalvm.compiler.nodes.ValueNode","org.graalvm.compiler.nodes.ValueNode"] }]
+},
+{
+  "name":"org.graalvm.compiler.nodes.calc.ZeroExtendNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.BoxNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.BranchProbabilityNode"
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.BytecodeExceptionNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.FixedValueAnchorNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.ForeignCallNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.GetClassNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.IntegerSwitchNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.JavaReadNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.JavaWriteNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.LoadHubNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.LoadMethodNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.MembarNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.NullCheckNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.OSRLocalNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.OSRMonitorEnterNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.OSRStartNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.RawLoadNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.RawStoreNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.StateSplitProxyNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.StoreHubNode"
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.SwitchNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.UnboxNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.UnsafeAccessNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.UnsafeMemoryLoadNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.UnsafeMemoryStoreNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.extended.ValueAnchorNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AbstractCompareAndSwapNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AbstractNewArrayNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AbstractNewObjectNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AbstractUnsafeCompareAndSwapNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AccessArrayNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AccessFieldNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AccessIndexedNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.AccessMonitorNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.ArrayLengthNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.ClassIsAssignableFromNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.DynamicNewArrayNode"
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.DynamicNewInstanceNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.ExceptionObjectNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.FinalFieldBarrierNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.InstanceOfDynamicNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.InstanceOfNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.LoadExceptionObjectNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.LoadFieldNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.LoadIndexedNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.LogicCompareAndSwapNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.MethodCallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.MonitorEnterNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.MonitorExitNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.MonitorIdNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.NewArrayNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.NewInstanceNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.RawMonitorEnterNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.RegisterFinalizerNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.StoreFieldNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.StoreIndexedNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.TypeSwitchNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.UnsafeCompareAndSwapNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.java.ValueCompareAndSwapNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.AbstractMemoryCheckpoint",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.AbstractWriteNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.FixedAccessNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.FloatableAccessNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.FloatingAccessNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.FloatingReadNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.MemoryAnchorNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.MemoryMapNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.MemoryPhiNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.ReadNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.WriteNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.address.AddressNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.memory.address.OffsetAddressNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.virtual.AllocatedObjectNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.virtual.CommitAllocationNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.virtual.EscapeObjectState",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.virtual.VirtualArrayNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.virtual.VirtualBoxingNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.virtual.VirtualInstanceNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.nodes.virtual.VirtualObjectNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.ArraySubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.ArraysSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.BoxingSnippets"
+},
+{
+  "name":"org.graalvm.compiler.replacements.ReplacementsUtil"
+},
+{
+  "name":"org.graalvm.compiler.replacements.SnippetCounter"
+},
+{
+  "name":"org.graalvm.compiler.replacements.SnippetCounterNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.SnippetIntegerHistogram"
+},
+{
+  "name":"org.graalvm.compiler.replacements.SnippetTemplate$VarargsPlaceholderNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.StringSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.amd64.AMD64ArrayIndexOf"
+},
+{
+  "name":"org.graalvm.compiler.replacements.amd64.AMD64ArrayIndexOfNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.amd64.AMD64ConvertSnippets"
+},
+{
+  "name":"org.graalvm.compiler.replacements.amd64.AMD64CountLeadingZerosNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.amd64.AMD64CountTrailingZerosNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.amd64.AMD64FloatConvertNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.amd64.AMD64StringSubstitutions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.arraycopy.ArrayCopyCallNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.arraycopy.ArrayCopyNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.arraycopy.ArrayCopySnippets"
+},
+{
+  "name":"org.graalvm.compiler.replacements.arraycopy.ArrayCopySnippets$ArrayCopyTypeCheck"
+},
+{
+  "name":"org.graalvm.compiler.replacements.arraycopy.ArrayCopySnippets$Counters"
+},
+{
+  "name":"org.graalvm.compiler.replacements.arraycopy.ArrayCopyWithDelayedLoweringNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.arraycopy.CheckcastArrayCopyCallNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ArrayCompareToNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ArrayEqualsNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ArrayRegionEqualsNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.BasicArrayCopyNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.BasicObjectCloneNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.BitCountNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.CStringConstant"
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ExplodeLoopNode"
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.LoadSnippetVarargParameterNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.MacroNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.MacroStateSplitNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.MethodHandleNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ReadRegisterNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ResolvedMethodHandleCallTargetNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ReverseBytesNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.replacements.nodes.ZeroMemoryNode"
+},
+{
+  "name":"org.graalvm.compiler.virtual.nodes.MaterializedObjectState",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.virtual.nodes.VirtualObjectState",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.compiler.word.Word"
+},
+{
+  "name":"org.graalvm.compiler.word.WordCastNode",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.graalvm.word.LocationIdentity"
+},
+{
+  "name":"org.graalvm.word.Pointer"
+},
+{
+  "name":"org.graalvm.word.WordFactory"
+},
+{
+  "name":"org.hibernate.Session",
+  "methods":[
+    {"name":"getHibernateFlushMode","parameterTypes":[] }, 
+    {"name":"persist","parameterTypes":["java.lang.Object"] }
+  ]
+},
+{
+  "name":"org.hibernate.annotations.common.util.impl.Log_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.hibernate.boot.cfgxml.internal.CfgXmlAccessServiceImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.cache.internal.DisabledCaching",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.cache.internal.NoCachingRegionFactory",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.cfg.beanvalidation.TypeSafeActivator",
+  "methods":[{"name":"activate","parameterTypes":["org.hibernate.cfg.beanvalidation.ActivationContext"] }]
+},
+{
+  "name":"org.hibernate.dialect.MySQL8Dialect",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.engine.config.internal.ConfigurationServiceImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.jdbc.dialect.internal.DialectResolverSet",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.jdbc.internal.JdbcServicesImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.jndi.internal.JndiServiceImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.query.internal.NativeQueryInterpreterStandardImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.event.service.internal.EventListenerRegistryImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.event.spi.EventType",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.hibernate.id.IdentityGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.internal.CoreMessageLogger_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.hibernate.internal.SessionFactoryImpl",
+  "methods":[{"name":"getProperties","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.persister.entity.SingleTableEntityPersister",
+  "methods":[{"name":"<init>","parameterTypes":["org.hibernate.mapping.PersistentClass","org.hibernate.cache.spi.access.EntityDataAccess","org.hibernate.cache.spi.access.NaturalIdDataAccess","org.hibernate.persister.spi.PersisterCreationContext"] }]
+},
+{
+  "name":"org.hibernate.persister.internal.PersisterFactoryImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.persister.internal.StandardPersisterClassResolver",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.property.access.internal.PropertyAccessStrategyResolverStandardImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.proxy.HibernateProxy",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.hibernate.proxy.ProxyConfiguration",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.hibernate.resource.beans.internal.ManagedBeanRegistryImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.service.internal.SessionFactoryServiceRegistryFactoryImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.stat.internal.StatisticsImpl",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.tool.schema.internal.HibernateSchemaManagementTool",
+  "allPublicMethods":true
+},
+{
+  "name":"org.hibernate.tuple.entity.PojoEntityTuplizer",
+  "methods":[{"name":"<init>","parameterTypes":["org.hibernate.tuple.entity.EntityMetamodel","org.hibernate.mapping.PersistentClass"] }]
+},
+{
+  "name":"org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.engine.resolver.JPATraversableResolver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Log_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Messages_$bundle",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.slf4j.spi.LocationAwareLogger",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.springframework.aop.scope.ScopedObject"
+},
+{
+  "name":"org.springframework.orm.hibernate5.SpringSessionContext",
+  "methods":[{"name":"<init>","parameterTypes":["org.hibernate.engine.spi.SessionFactoryImplementor"] }]
+},
+{
+  "name":"org.springframework.transaction.TransactionDefinition",
+  "allPublicFields":true
+},
+{
+  "name":"org.springframework.transaction.support.AbstractPlatformTransactionManager",
+  "allPublicFields":true
+},
+{
+  "name":"sun.misc.Cleaner",
+  "methods":[{"name":"clean","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[
+    {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"defineClass","parameterTypes":["java.lang.String","byte[]","int","int","java.lang.ClassLoader","java.security.ProtectionDomain"] }, 
+    {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }
+  ]
+},
+{
+  "name":"sun.misc.VM",
+  "methods":[{"name":"maxDirectMemory","parameterTypes":[] }]
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[
+    {"name":"publicSelectedKeys"}, 
+    {"name":"selectedKeys"}
+  ]
+}
+]
